@@ -1,4 +1,4 @@
-pageextension 50101 "cust.Ledger Entry PageExt" extends "Customer Ledger Entries"
+pageextension 50108 "cust.Ledger Entry PageExt" extends "Customer Ledger Entries"
 {
     layout
     {
@@ -44,11 +44,15 @@ pageextension 50101 "cust.Ledger Entry PageExt" extends "Customer Ledger Entries
     }
 
     trigger OnOpenPage()
+    var
+        c: Boolean;
     begin
+        c := ThresholdSetup.Get();
         if not ThresholdSetup.Get() then begin
             ShowThresholdSetupNotification();
-            CurrPage.Update();
+            //CurrPage.Update();
         end;
+
     end;
 
     trigger OnAfterGetRecord()

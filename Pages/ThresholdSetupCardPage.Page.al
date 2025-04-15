@@ -41,8 +41,9 @@ page 50107 "Threshold Setup"
     var
         Threshold: Record "Threshold Setup";
     begin
-        if not Threshold.Get() then
+        if not Threshold.Get() then begin
             Threshold.Init();
-        Threshold.Insert();
+            Threshold.Insert();
+        end
     end;
 }
