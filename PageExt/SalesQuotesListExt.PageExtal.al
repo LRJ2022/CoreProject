@@ -38,4 +38,28 @@ pageextension 50109 "sol SalesQuotesListExt" extends "Sales Quotes"
             }
         }
     }
+    actions
+    {
+        addfirst(Create)
+        {
+            Action(CloseQuote)
+            {
+                Caption = '&Close Quote';
+                ToolTip = 'Arvhives qutoe on closing';
+                Image = Close;
+                Promoted = true;
+                PromotedCategory = Process;
+                PromotedIsBig = true;
+                trigger OnAction()
+                var
+                    closeQuoteCodeUnit: Codeunit "sol Quote Status Mgmt.";
+                begin
+                    if page.RunModal(page::"sol Close Quote", Rec) = Action::LookupOK then
+                        closeQuoteCodeUnit.CloseQuote(Rec);
+
+                end;
+
+            }
+        }
+    }
 }
