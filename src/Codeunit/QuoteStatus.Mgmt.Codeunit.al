@@ -76,4 +76,37 @@ codeunit 50141 "sol Quote Status Mgmt."
         salesHeaderArchive.Validate("Won/Lost Reason Desc", SalesOrderHeader."Won/Lost Reason Desc");
         salesHeaderArchive.Validate("Won/Lost Remarks", SalesOrderHeader."Won/Lost Remarks"); */
     end;
+
+    procedure GetSalesPersonForLoggedInUser(): Record "Salesperson/Purchaser"
+
+    var
+        currentUser: Record "User";
+        currentUserId: Guid;
+        SalesPerson: Record "Salesperson/Purchaser";
+    begin
+        currentUserId := UserSecurityId();
+        currentUser.Get(currentUserId);
+        SalesPerson."E-Mail" := currentUser."Contact Email";
+        SalesPerson.FindFirst();
+        exit(SalesPerson)
+    end;
+
+    //løsning
+
+    procedure GetSalesPersonForLoggedInUser2(): code[20]
+    var
+        salesPerson: Record "Salesperson/Purchaser";
+        User: record User;
+    begin
+        user.Reset();
+        if not User.Get(UserSecurityId()) then
+            exit('');
+
+        if User."Contact Email".Trim() = '' then
+            exit('');
+        salesPerson.Reset();
+        salesPerson.SetRange("E-Mail", user."Contact Email");
+        if salesPerson.FindFirst() then
+            exit(salesPerson.Code);
+    end;
 }
