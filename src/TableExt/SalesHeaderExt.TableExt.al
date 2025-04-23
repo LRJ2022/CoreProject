@@ -24,9 +24,10 @@ tableextension 50132 "Sales Header Ext" extends "Sales Header"
         {
             Caption = 'Reason Code';
             DataClassification = CustomerContent;
-            TableRelation = if ("Won/Lost Quote Status" = const("Won/Lost Quote Status"::Won)) "Close Opportunity Code" where(type = const("sol Won or Lost Status"::Won))
+            TableRelation = if ("Won/Lost Quote Status" =
+                                    const("Won/Lost Quote Status"::Won)) "Close Opportunity Code" where(Type = const(0))
             else
-            if ("Won/Lost Quote Status" = const("Won/Lost Quote Status"::Lost)) "Close Opportunity Code" where(type = const("sol Won or Lost Status"::Lost));
+            if ("Won/Lost Quote Status" = const("Won/Lost Quote Status"::Lost)) "Close Opportunity Code" where(Type = const(1));
 
             trigger OnValidate()
             begin
