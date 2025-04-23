@@ -81,10 +81,11 @@ codeunit 50141 "sol Quote Status Mgmt."
     local procedure OnRoleCenterOpen()
     var
         SalespersonCode: Code[20];
+        quoteStatus: Enum "sol Won or Lost Status";
     begin
         SalespersonCode := GetSalesPersonForLoggedInUser2();
-        ShowWonQuotesStatusInfo('LB');
-        ShowLostQuotesStatusInfo('LB');
+        GetQuoteRecords('LB', quoteStatus::Won);
+        GetQuoteRecords('LB', quoteStatus::Lost);
     end;
 
     procedure GetSalesPersonForLoggedInUser(): Record "Salesperson/Purchaser"
@@ -120,62 +121,52 @@ codeunit 50141 "sol Quote Status Mgmt."
             exit(salesPerson.Code);
     end;
 
-    procedure ShowWonQuotesStatusInfo(SalesPersonCode: Code[20])
+    local procedure GetQuoteRecords(SalesPersonCode: Code[20]; status: Enum "sol Won or Lost Status")
     var
-        WonStatusQuote: Notification;
-        wonLostForFiveDays: label 'You Won %1 quote(s) the last 5 days.', Comment = '%1 specifies amount of won quotes';
-        amount: integer;
+        NoOfQuotes: integer;
         quotesList: Record "Sales Header";
-        EnumWonOrlostStatus: Enum "sol Won or Lost Status";
 
     begin
-        quotesList.SetRange(quotesList."Salesperson Code", SalesPersonCode);
-        quotesList.SetFilter("Won/Lost Date", (Format(CalcDate('-5D', Today())) + '..' + Format(Today())));
-        quotesList.SetRange("Won/Lost Quote Status", EnumWonOrlostStatus::Won);
-        amount := quotesList.count;
-
-        WonStatusQuote.Message := StrSubstNo(wonLostForFiveDays, amount);
-        WonStatusQuote.SetData('SalesPersonCode', SalesPersonCode);
-        WonStatusQuote.SetData('DateRange', Format(CalcDate('-5D', Today())) + '..' + Format(Today()));
-        WonStatusQuote.SetData('Status', Format(EnumWonOrlostStatus::won));
-        WonStatusQuote.AddAction('View Quotes', Codeunit::"sol Quote Status Mgmt.", 'ShowQuotes');
-        WonStatusQuote.Send();
-
+        FilterQuotes(quotesList, status, SalesPersonCode);
+        NoOfQuotes := quotesList.count;
+        if NoOfQuotes <> 0 then
+            ShowNoOfQuoteNotification(NoOfQuotes, status, SalesPersonCode);
     end;
 
-    procedure ShowLostQuotesStatusInfo(SalesPersonCode: Code[20])
+    local procedure ShowNoOfQuoteNotification(noOfRecords: integer; status: Enum "sol Won or Lost Status"; SalesPersonCode: Code[20])
     var
-        LostStatusQuote: Notification;
-        wonLostForFiveDays: label 'You Lost %1 quote(s) the last 5 days.', Comment = '%1 specifies amount of lost quotes';
-        amount: integer;
-        quotesList: Record "Sales Header";
-        EnumWonOrlostStatus: Enum "sol Won or Lost Status";
-
+        WonOrLostAmountNotification: Notification;
+        wonLostForFiveDays: label 'You %1 %2 quote(s) the last 5 days.', Comment = '%1 specifies amount of won quotes';
     begin
-        quotesList.SetRange(quotesList."Salesperson Code", SalesPersonCode);
-        quotesList.SetFilter("Won/Lost Date", (Format(CalcDate('-5D', Today())) + '..' + Format(Today())));
-        quotesList.SetRange("Won/Lost Quote Status", EnumWonOrlostStatus::Lost);
-        quotesList.FindSet();
-        amount := quotesList.count;
-
-        LostStatusQuote.Message := StrSubstNo(wonLostForFiveDays, amount);
-        LostStatusQuote.SetData('SalesPersonCode', SalesPersonCode);
-        LostStatusQuote.SetData('DateRange', Format(CalcDate('-5D', Today())) + '..' + Format(Today()));
-        LostStatusQuote.SetData('Status', Format(EnumWonOrlostStatus::Lost));
-        LostStatusQuote.AddAction('View Quotes', Codeunit::"sol Quote Status Mgmt.", 'ShowQuotes');
-        LostStatusQuote.Send();
+        WonOrLostAmountNotification.Message := StrSubstNo(wonLostForFiveDays, Format(status), noOfRecords);
+        WonOrLostAmountNotification.SetData('SalesPersonCode', SalesPersonCode);
+        WonOrLostAmountNotification.SetData('DateRange', Format(CalcDate('-5D', Today())) + '..' + Format(Today()));
+        WonOrLostAmountNotification.SetData('Status', Format(status.AsInteger()));
+        WonOrLostAmountNotification.AddAction('View Quotes', Codeunit::"sol Quote Status Mgmt.", 'ShowQuotes');
+        WonOrLostAmountNotification.Send();
     end;
 
     procedure ShowQuotes(WonOrLost: Notification)
     var
         quotesList: Record "Sales Header";
-        salesQuotes: page "Sales Quotes";
+        WonOrLostStatus: Enum "sol Won or Lost Status";
+        EnumIndex: Integer;
+        SalesPersonCode: Code[20];
+
     begin
-        quotesList.SetRange("Salesperson Code", WonOrLost.GetData('SalesPersonCode'));
-        quotesList.SetFilter("Won/Lost Date", WonOrLost.GetData('DateRange'));
-        quotesList.SetFilter("Won/Lost Quote Status", WonOrLost.GetData('Status'));
-        salesQuotes.SetTableView(quotesList);
-        salesQuotes.Run();
+        SalesPersonCode := WonOrLost.GetData('SalesPersonCode');
+        if Evaluate(EnumIndex, WonOrLost.GetData('Status')) then
+            WonOrLostStatus := enum::"sol Won or Lost Status".FromInteger(EnumIndex);
+        FilterQuotes(quotesList, WonOrLostStatus, SalesPersonCode);
+        if quotesList.FindSet() then
+            page.Run(Page::"Sales Quotes", quotesList);
+    end;
+
+    local procedure FilterQuotes(var salesHeader: Record "Sales Header"; status: Enum "sol Won or Lost Status"; SalesPersonCode: Code[20])
+    begin
+        salesHeader.SetRange("Salesperson Code", SalesPersonCode);
+        salesHeader.SetFilter("Won/Lost Date", (Format(CalcDate('-5D', Today())) + '..' + Format(Today())));
+        salesHeader.SetRange("Won/Lost Quote Status", status);
     end;
 
 }
