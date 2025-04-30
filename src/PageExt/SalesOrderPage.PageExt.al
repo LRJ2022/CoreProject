@@ -11,5 +11,17 @@ pageextension 50104 "sol Sales Order Price Factbox" extends "Sales Order"
                 SubPageLink = "Item No." = field("No.");
             }
         }
+        addbefore("Sell-to")
+        {
+            field("Grade No."; Rec."Grade No.")
+            {
+                ApplicationArea = All;
+            }
+
+            field("Grade Description"; Rec."Grade Description")
+            {
+                ApplicationArea = All;
+            }
+        }
     }
 }

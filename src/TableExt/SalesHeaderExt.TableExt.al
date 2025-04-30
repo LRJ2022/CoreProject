@@ -48,7 +48,22 @@ tableextension 50132 "Sales Header Ext" extends "Sales Header"
             Caption = 'Remarks';
             DataClassification = CustomerContent;
         }
+        field(50145; "Grade No."; Code[20])
+        {
+            Caption = 'Grade No.';
+            ToolTip = 'Grade No.';
+            TableRelation = "sol Grades";
+
+        }
+
+        field(50146; "Grade Description"; Text[100])
+        {
+            Caption = 'Grade Description';
+            FieldClass = FlowField;
+            CalcFormula = lookup("sol Grades".Decsription where("No." = field("Grade No.")));
+        }
     }
+
     /* 
         procedure LookUpDescriptionBasedOnStatus()
         var

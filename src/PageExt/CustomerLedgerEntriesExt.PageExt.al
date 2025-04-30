@@ -21,6 +21,19 @@ pageextension 50108 "cust.Ledger Entry PageExt" extends "Customer Ledger Entries
                 ApplicationArea = All;
             }
         }
+
+        addafter("Customer Name")
+        {
+            field("Grade No."; Rec."Grade No.")
+            {
+                ApplicationArea = All;
+            }
+
+            field("Grade Description"; Rec."Grade Description")
+            {
+                ApplicationArea = All;
+            }
+        }
     }
 
     views

@@ -1,4 +1,4 @@
-tableextension 50131 "Cust. Ledger Entry Ext" extends "Cust. Ledger Entry"
+tableextension 50102 "sol Sales Invoice HeaderExt" extends "Sales Invoice Header"
 {
     fields
     {
@@ -16,18 +16,5 @@ tableextension 50131 "Cust. Ledger Entry Ext" extends "Cust. Ledger Entry"
             FieldClass = FlowField;
             CalcFormula = lookup("sol Grades".Decsription where("No." = field("Grade No.")));
         }
-
     }
-    procedure GetNumberOfDaysExpired(): Integer
-    var
-        today: date;
-
-    begin
-        today := DT2Date(System.CurrentDateTime);
-        if "Due Date" < today then
-            exit(1);
-        //exit(Abs(today - "Due Date"));
-
-        exit(0);
-    end;
 }

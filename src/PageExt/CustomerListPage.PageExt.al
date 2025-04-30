@@ -10,5 +10,17 @@ pageextension 50102 "sol Customer List Ext" extends "Customer List"
                 ApplicationArea = All;
             }
         }
+        addafter(Name)
+        {
+            field("Grade No."; Rec."Grade No.")
+            {
+                ApplicationArea = All;
+            }
+
+            field("Grade Description"; Rec."Grade Description")
+            {
+                ApplicationArea = All;
+            }
+        }
     }
 }
