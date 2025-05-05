@@ -4,10 +4,9 @@ tableextension 50103 "sol Sales Cr.Memo HeaderExt" extends "Sales Cr.Memo Header
     {
         field(50145; "Grade No."; Code[20])
         {
-            Caption = 'Grade No.';
-            ToolTip = 'Grade No.';
-            TableRelation = "sol Grades";
-            Editable = false;
+            Caption = 'Grade no.';
+            FieldClass = FlowField;
+            CalcFormula = lookup("Customer"."Grade No." where("No." = field("Sell-to Customer No.")));
         }
 
         field(50146; "Grade Description"; Text[100])

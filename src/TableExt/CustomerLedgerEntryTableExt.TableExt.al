@@ -3,11 +3,10 @@ tableextension 50131 "Cust. Ledger Entry Ext" extends "Cust. Ledger Entry"
     fields
     {
         field(50145; "Grade No."; Code[20])
-        {
-            Caption = 'Grade No.';
-            ToolTip = 'Grade No.';
-            TableRelation = "sol Grades";
-            Editable = false;
+        {  
+            Caption = 'Grade no.';
+            FieldClass = FlowField;
+            CalcFormula = lookup("Customer"."Grade No." where("No." = field("Sell-to Customer No.")));
         }
 
         field(50146; "Grade Description"; Text[100])

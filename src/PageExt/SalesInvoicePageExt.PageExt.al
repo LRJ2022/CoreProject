@@ -15,5 +15,14 @@ pageextension 50101 SalesInvoicePageExt extends "Sales Invoice"
                 ApplicationArea = All;
             }
         }
+
+        addfirst(factboxes)
+        {
+            part("sol Grade FactBox"; "sol Grade History Factbox")
+            {
+                SubPageLink = "Customer No." = field("Bill-to Customer No.");
+                ApplicationArea = All;
+            }
+        }
     }
 }

@@ -23,5 +23,14 @@ pageextension 50104 "sol Sales Order Price Factbox" extends "Sales Order"
                 ApplicationArea = All;
             }
         }
+
+        addfirst(factboxes)
+        {
+            part("sol Grade FactBox"; "sol Grade History Factbox")
+            {
+                SubPageLink = "Customer No." = field("Bill-to Customer No.");
+                ApplicationArea = All;
+            }
+        }
     }
 }

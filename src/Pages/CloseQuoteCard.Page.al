@@ -47,6 +47,20 @@ page 50101 "sol Close Quote"
                     Editable = AllowChangeStatus;
                     Caption = 'Remarks';
                 }
+
+                field(Test; TestDate)
+                {
+                    ApplicationArea = All;
+                    Caption = 'Test Date';
+                    Editable = false;
+
+                }
+                field(Test2; TestTime)
+                {
+                    ApplicationArea = All;
+                    Caption = 'Test time';
+                    Editable = false;
+                }
             }
         }
     }
@@ -60,7 +74,10 @@ page 50101 "sol Close Quote"
     begin
         if rec."Won/Lost Quote Status" = quotesStatus::Won then
             CurrPage.Editable := false;
-        AllowChangeStatus := Rec."Won/Lost Quote Status" <> quotesStatus::Won
+        AllowChangeStatus := Rec."Won/Lost Quote Status" <> quotesStatus::Won;
+
+        TestDate := DT2Date(CurrentDateTime);
+        Testtime := CurrentDateTime;
     end;
 
     trigger OnQueryClosePage(CloseAction: Action): Boolean
@@ -82,4 +99,8 @@ page 50101 "sol Close Quote"
             Error(StrSubstNo(errorlbl, rec.FieldCaption("Won/Lost Reason Code")));
 
     end;
+
+    var
+        TestDate: date;
+        TestTime: DateTime;
 }

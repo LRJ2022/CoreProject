@@ -4,7 +4,7 @@ page 50112 "sol Grade List"
     ApplicationArea = All;
     UsageCategory = Administration;
     SourceTable = "sol Grades";
-    Caption = 'Customer Grades List';
+    Caption = 'Grades List';
     Editable = false;
     CardPageId = "sol Grade Card";
 

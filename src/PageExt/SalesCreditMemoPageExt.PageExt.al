@@ -15,5 +15,13 @@ pageextension 50107 SalesCreditMemoPageExt extends "Sales Credit Memo"
                 ApplicationArea = All;
             }
         }
+        addfirst(factboxes)
+        {
+            part("sol Grade FactBox"; "sol Grade History Factbox")
+            {
+                SubPageLink = "Customer No." = field("Bill-to Customer No.");
+                ApplicationArea = All;
+            }
+        }
     }
 }

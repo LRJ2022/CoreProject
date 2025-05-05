@@ -50,10 +50,9 @@ tableextension 50132 "Sales Header Ext" extends "Sales Header"
         }
         field(50145; "Grade No."; Code[20])
         {
-            Caption = 'Grade No.';
-            ToolTip = 'Grade No.';
-            TableRelation = "sol Grades";
-
+            Caption = 'Grade no.';
+            FieldClass = FlowField;
+            CalcFormula = lookup("Customer"."Grade No." where("No." = field("Sell-to Customer No.")));
         }
 
         field(50146; "Grade Description"; Text[100])

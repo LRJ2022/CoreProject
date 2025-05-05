@@ -20,6 +20,11 @@ pageextension 50108 "cust.Ledger Entry PageExt" extends "Customer Ledger Entries
                 SubPageLink = "Customer Entry No." = field("Entry No.");
                 ApplicationArea = All;
             }
+            part("sol Grade FactBox"; "sol Grade History Factbox")
+            {
+                SubPageLink = "Customer No." = field("Customer No.");
+                ApplicationArea = All;
+            }
         }
 
         addafter("Customer Name")

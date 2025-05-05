@@ -6,8 +6,13 @@ tableextension 50101 CustomerTableExt extends Customer
         {
             Caption = 'Grade No.';
             ToolTip = 'Grade No.';
+            NotBlank = true;
             TableRelation = "sol Grades";
-            Editable = false;
+
+            trigger OnValidate()
+            begin
+                CalcFields("Grade Description");
+            end;
         }
 
         field(50146; "Grade Description"; Text[100])
