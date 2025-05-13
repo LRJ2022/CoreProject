@@ -1,29 +1,24 @@
-report 50100 "sol CustomerList"
+report 50101 "sol InventoryByItem"
 {
     ApplicationArea = All;
-    Caption = 'Customer List Report';
+    Caption = 'Inventory By Item2';
     UsageCategory = ReportsAndAnalysis;
-    RDLCLayout = './src/Layout/CustomerList.rdl';
-    WordLayout = './src/Layout/CustomerList.docx';
-    //DefaultLayout = Word;
-
+    RDLCLayout = './src/Layout/InventoryByItem.rdl';
+    WordLayout = './src/Layout/InventoryByItem.docx';
+    DefaultLayout = Word;
     dataset
     {
-        dataitem(Customer; "Customer")
+        dataitem(Item; Item)
         {
-            column(No_Customer; "No.")
+            column(No; "No.")
             {
                 IncludeCaption = true;
             }
-            column(Name_Customer; Name)
+            column(Description; Description)
             {
                 IncludeCaption = true;
             }
-            column(City_Customer; City)
-            {
-                IncludeCaption = true;
-            }
-            column(BalanceLCY_Customer; "Balance (LCY)")
+            column(Inventory; Inventory)
             {
                 IncludeCaption = true;
             }

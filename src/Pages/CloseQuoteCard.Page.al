@@ -21,6 +21,7 @@ page 50101 "sol Close Quote"
                     ApplicationArea = All;
                     Editable = AllowChangeStatus;
                     ToolTip = 'Specifies status of the quote';
+
                 }
 
                 field("Won/Lost Date"; Rec."Won/Lost Date")

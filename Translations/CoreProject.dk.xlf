@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="da-DK" original="CoreProject">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 276125809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>sol Grade History</source>
+          <target state="translated">Grade Historie</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table sol Grade History - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 276125809 - Field 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <target state="translated">Kunde Navn</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table sol Grade History - Field Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 276125809 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No</source>
+          <target state="translated">Kunde No</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table sol Grade History - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 276125809 - Field 3195050981 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DateTime</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table sol Grade History - Field DateTimer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 276125809 - Field 580412389 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table sol Grade History - Field Document Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 276125809 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table sol Grade History - Field Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 276125809 - Field 2176682057 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document type</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table sol Grade History - Field Document type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 276125809 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table sol Grade History - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 276125809 - Field 2171524677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grade Description</source>
+          <target state="translated">Grade Beskrivelse</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table sol Grade History - Field Grade Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 276125809 - Field 3337414782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grade No.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table sol Grade History - Field Grade No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 276125809 - Field 2708250016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User ID</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table sol Grade History - Field User ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1139755206 - Field 1919332371 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grades No.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table sol Grade Setup - Field Grades No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1139755206 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <target state="translated">Primærnøgle</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table sol Grade Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 389092546 - Field 305734218 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Beskrivelse</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table sol Grades - Field Decsription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 389092546 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table sol Grades - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 389092546 - Field 1351594800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Series</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table sol Grades - Field No. Series - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 119454948 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Threshold Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 119454948 - Field 953871387 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Threshold 1 Style</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Threshold Setup - Field Threshold 1 Style - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 119454948 - Field 3987954367 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Theshold 1 Value</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Threshold Setup - Field Threshold 1 Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 119454948 - Field 2000747574 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Threshold 2 Style</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Threshold Setup - Field Threshold 2 Style - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 119454948 - Field 1122649034 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Theshold 2 Value</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Threshold Setup - Field Threshold 2 Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2429005725 - Method 3703924647 - NamedType 2586998536" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document archive can not be completed</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit sol Quote Status Mgmt. - Method OnBeforeArchiveDocument - NamedType ArchiveCanNotBeCompletedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2429005725 - Method 3120407960 - NamedType 450232675" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order creation can not be completed.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit sol Quote Status Mgmt. - Method OnBeforeMakeOrder - NamedType OrderCreationCanNotBeCompletedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2429005725 - Method 3566408927 - NamedType 450232675" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order creation can not be completed.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit sol Quote Status Mgmt. - Method OnBeforeMakeOrderQuotes - NamedType OrderCreationCanNotBeCompletedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2429005725 - Method 3525571016 - NamedType 3009339214" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You %1 %2 quote(s) the last 5 days.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%1 specifies amount of won quotes</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit sol Quote Status Mgmt. - Method ShowNoOfQuoteNotification - NamedType wonLostForFiveDays</note>
+        </trans-unit>
+        <trans-unit id="Page 3663499608 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Close Quote</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Close Quote - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3663499608 - Method 1136289476 - NamedType 3897672518" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is empty</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">specifies witch field is missing a parameter</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Close Quote - Method FinishWizard - NamedType errorlbl</note>
+        </trans-unit>
+        <trans-unit id="Page 3663499608 - Control 4105281732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Close Quote - Control GroupName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3663499608 - Control 3732224266 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Date</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Close Quote - Control Test - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3663499608 - Control 63677024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test time</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Close Quote - Control Test2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3663499608 - Control 2687712307 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specified the dat this quote was closed</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Close Quote - Control Won/Lost Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3663499608 - Control 1968617997 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies status of the quote</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Close Quote - Control Won/Lost Quote Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3663499608 - Control 2596330488 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the reason for closing the quote</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Close Quote - Control Won/Lost Reason Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3663499608 - Control 3079526516 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the reason for closing the quote</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Close Quote - Control Won/Lost Reason Desc - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3663499608 - Control 2570510448 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies an extra remark on the quote status</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Close Quote - Control Won/Lost Remarks - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3663499608 - Control 2570510448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remarks</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Close Quote - Control Won/Lost Remarks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2289688465 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Reminders Factbox</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Customer Reminder Factbox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1590703859 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Grade card</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1590703859 - Control 305734218 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the grade</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade Card - Control Decsription - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1590703859 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The no. of the grade</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade Card - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1590703859 - Action 3732224266 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test</source>
+          <target state="translated">Test Oversat til Dansk</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade Card - Action Test - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 276125809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grade History</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 276125809 - Control 1171137197 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer Name field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History - Control Customer Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276125809 - Control 4190130733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer Name field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History - Control Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276125809 - Control 3195050981 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the DateTime field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History - Control DateTimer - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276125809 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Document No. field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276125809 - Control 2176682057 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Document type field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History - Control Document type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276125809 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry No. field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276125809 - Control 2171524677 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Grade Description field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History - Control Grade Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276125809 - Control 3337414782 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Grade No. field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History - Control Grade No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276125809 - Control 2708250016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the User ID field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History - Control User ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 276125809 - Action 3732224266 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History - Action Test - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 276125809 - Action 63677024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test2</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History - Action Test2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 276125809 - Action 3720947703 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test3</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History - Action Test3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1491578350 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grade History Factbox</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History Factbox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1491578350 - Control 1171137197 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer Name field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History Factbox - Control Customer Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1491578350 - Control 4190130733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer Name field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History Factbox - Control Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1491578350 - Control 3195050981 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the DateTime field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History Factbox - Control DateTimer - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1491578350 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Document No. field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History Factbox - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1491578350 - Control 2176682057 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Document type field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History Factbox - Control Document type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1491578350 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry No. field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History Factbox - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1491578350 - Control 2171524677 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Grade Description field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History Factbox - Control Grade Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1491578350 - Control 3337414782 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Grade No. field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History Factbox - Control Grade No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1491578350 - Control 2708250016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the User ID field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade History Factbox - Control User ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1108216065 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grades List</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1108216065 - Control 305734218 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the grade</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade List - Control Decsription - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1108216065 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The no. of the grade</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grade List - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3091074399 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grades Setup Card</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grades Setup Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3091074399 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grades Setup Card - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3091074399 - Control 1663593181 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Primary Key field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grades Setup Card - Control Primary Key - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3091074399 - Control 1919332371 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Grades No. field.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Grades Setup Card - Control Grades No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 221733867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quotes Status</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Quotes on Mngt.RoleCenter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 221733867 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the total amount of the quote</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Quotes on Mngt.RoleCenter - Control Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 221733867 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>specifies the no. of this quote</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Quotes on Mngt.RoleCenter - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 221733867 - Control 3513921754 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer name linked to this quote</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Quotes on Mngt.RoleCenter - Control SellToCustomerName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 221733867 - Control 2687712307 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>specifies the date this quote was closed</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Quotes on Mngt.RoleCenter - Control Won/Lost Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 221733867 - Control 3079526516 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>specifies the reason closing the quote</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Quotes on Mngt.RoleCenter - Control Won/Lost Reason Desc - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1599674764 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Prices</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page sol Sales Price Factbox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 119454948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Threshold Setup</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Threshold Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3227036036 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Join Data</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Join Dataset - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2002030328 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Simpel Dataset</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Simpel DataSet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2378389906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer List Report</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report sol CustomerList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3633028792 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory By Item2</source>
+          <target state="translated">Lageroversigt efter varer</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report sol InventoryByItem - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2331646112 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>assigment - Item Inventory and Availab</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report sol Item Inventory and Availab - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2331646112 - ReportLabel 2955087277" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Availability</source>
+          <target state="translated">Tilgængelighed</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report sol Item Inventory and Availab - ReportLabel Availabilitylbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2331646112 - ReportLabel 3672334574" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Category Code</source>
+          <target state="translated">Kategori kode</target>
+          <note from="Developer" annotates="general" priority="2">Label on colomn</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report sol Item Inventory and Availab - ReportLabel ItemCategoryCodelbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2331646112 - ReportLabel 2640117562" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test</source>
+          <target state="translated">Test - Oversat til dansk</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report sol Item Inventory and Availab - ReportLabel label2lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2331646112 - ReportLabel 4082312094" maxwidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Items by Category, Inventory and Availability</source>
+          <target state="translated">varer tilgængelighed sorteret efter Kategori på lager</target>
+          <note from="Developer" annotates="general" priority="2">Foo</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report sol Item Inventory and Availab - ReportLabel LabelName1lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1112428675 - RequestPage 2516438534 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Teaching tip title</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Union Dataset - RequestPage RequestOptionsPage - Property AboutTitle</note>
+        </trans-unit>
+        <trans-unit id="Report 1112428675 - RequestPage 2516438534 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Teaching tip content</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Union Dataset - RequestPage RequestOptionsPage - Property AboutText</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3195184160 - Method 2458544378 - NamedType 1762761909" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3195184160">
+          <source>You need to run the Threshold Setup</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">Commen for thresholdsetup</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension cust.Ledger Entry PageExt - Method ShowThresholdSetupNotification - NamedType runThresholdSetuplbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3195184160 - Method 2458544378 - NamedType 2926575318" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3195184160">
+          <source>Click here to run ThresholdSetup</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2">Comment for click</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension cust.Ledger Entry PageExt - Method ShowThresholdSetupNotification - NamedType runThresholdClicklbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3195184160 - Control 2803228102 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2393537757">
+          <source>The number of days this entry is expired, based upoun due date and today</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension cust.Ledger Entry PageExt - Control NumberOfDaysExpired - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3195184160 - Control 2803228102 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2393537757">
+          <source>Number of days Expired</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension cust.Ledger Entry PageExt - Control NumberOfDaysExpired - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3195184160 - View 3993354266 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2393537757">
+          <source>Open Entries</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension cust.Ledger Entry PageExt - View Open Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 673057693 - Control 2687712307 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 327261204">
+          <source>Specifies the date this quote was closed</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesQuotesArchiveDoc - Control Won/Lost Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 673057693 - Control 1968617997 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 327261204">
+          <source>Specifies status af the quote</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesQuotesArchiveDoc - Control Won/Lost Quote Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 673057693 - Control 2596330488 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 327261204">
+          <source>Specifies the reason for closing the quote</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesQuotesArchiveDoc - Control Won/Lost Reason Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 673057693 - Control 3079526516 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 327261204">
+          <source>Specifies the reason for closing the quote</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesQuotesArchiveDoc - Control Won/Lost Reason Desc - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 673057693 - Control 2570510448 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 327261204">
+          <source>Specifies an extra remark on the quote status</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesQuotesArchiveDoc - Control Won/Lost Remarks - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3235291461 - Control 1036840254 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
+          <source>Quote Status: Lost</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension sol Business Manager RoleC Ext - Control QuoteStatusLost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3235291461 - Control 3079069220 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
+          <source>Quote Status: Won</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension sol Business Manager RoleC Ext - Control QuoteStatusWon - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 895339204 - Control 2687712307 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 561889749">
+          <source>Specifies the date this quote was closed</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension sol SalesQuoteArchivesListExt - Control Won/Lost Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 895339204 - Control 1968617997 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 561889749">
+          <source>Specifies status on the quote</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension sol SalesQuoteArchivesListExt - Control Won/Lost Quote Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 895339204 - Control 2596330488 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 561889749">
+          <source>Specifies the reason for closing the quote</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension sol SalesQuoteArchivesListExt - Control Won/Lost Reason Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 895339204 - Control 3079526516 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 561889749">
+          <source>Specifies the reason for closing the quote</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension sol SalesQuoteArchivesListExt - Control Won/Lost Reason Desc - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 895339204 - Control 2570510448 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 561889749">
+          <source>Specifies an extra remark on the quote status</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension sol SalesQuoteArchivesListExt - Control Won/Lost Remarks - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3645168533 - Action 3393153944 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
+          <source>Arvhives qutoe on closing</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension sol SalesQuoteDocExt - Action CloseQuote - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3645168533 - Action 3393153944 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
+          <source>&amp;Close Quote</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension sol SalesQuoteDocExt - Action CloseQuote - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3645168533 - Control 2687712307 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
+          <source>Specifies the date this quote was closed</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension sol SalesQuoteDocExt - Control Won/Lost Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3645168533 - Control 1968617997 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
+          <source>Specifies status af the quote</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension sol SalesQuoteDocExt - Control Won/Lost Quote Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3645168533 - Control 2596330488 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
+          <source>Specifies the reason for closing the quote</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension sol SalesQuoteDocExt - Control Won/Lost Reason Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3645168533 - Control 3079526516 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
+          <source>Specifies the reason for closing the quote</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension sol SalesQuoteDocExt - Control Won/Lost Reason Desc - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3645168533 - Control 2570510448 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
+          <source>Specifies an extra remark on the quote status</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension sol SalesQuoteDocExt - Control Won/Lost Remarks - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2968647950 - Action 3393153944 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 734185571">
+          <source>Arvhives qutoe on closing</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension sol SalesQuotesListExt - Action CloseQuote - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2968647950 - Action 3393153944 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 734185571">
+          <source>&amp;Close Quote</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension sol SalesQuotesListExt - Action CloseQuote - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2968647950 - Control 2687712307 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 734185571">
+          <source>Specifies the date this quote was closed</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension sol SalesQuotesListExt - Control Won/Lost Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2968647950 - Control 1968617997 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 734185571">
+          <source>Specifies status on the quote</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension sol SalesQuotesListExt - Control Won/Lost Quote Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2968647950 - Control 2596330488 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 734185571">
+          <source>Specifies the reason for closing the quote</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension sol SalesQuotesListExt - Control Won/Lost Reason Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2968647950 - Control 3079526516 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 734185571">
+          <source>Specifies the reason for closing the quote</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension sol SalesQuotesListExt - Control Won/Lost Reason Desc - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2968647950 - Control 2570510448 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 734185571">
+          <source>Specifies an extra remark on the quote status</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension sol SalesQuotesListExt - Control Won/Lost Remarks - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1183321529 - Field 2171524677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2733917450">
+          <source>Grade Description</source>
+          <target state="translated">Grade Beskrivelse</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Cust. Ledger Entry Ext - Field Grade Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1183321529 - Field 3337414782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2733917450">
+          <source>Grade no.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Cust. Ledger Entry Ext - Field Grade No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2041000341 - Field 2171524677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Grade Description</source>
+          <target state="translated">Grade Beskrivelse</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerTableExt - Field Grade Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2041000341 - Field 3337414782 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Grade No.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerTableExt - Field Grade No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2041000341 - Field 3337414782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Grade No.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerTableExt - Field Grade No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 918849336 - Field 2687712307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1948788855">
+          <source>Quote Status Date</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Archive Ext - Field Won/Lost Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 918849336 - Field 1968617997 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1948788855">
+          <source>Quote Status</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Archive Ext - Field Won/Lost Quote Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 918849336 - Field 2596330488 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1948788855">
+          <source>Reason Code</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Archive Ext - Field Won/Lost Reason Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 918849336 - Field 3079526516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1948788855">
+          <source>Reason Description</source>
+          <target state="translated">Begrundelse</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Archive Ext - Field Won/Lost Reason Desc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 918849336 - Field 2570510448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1948788855">
+          <source>Remarks</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Archive Ext - Field Won/Lost Remarks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4190488490 - Field 2171524677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Grade Description</source>
+          <target state="translated">Grade Beskrivelse</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Ext - Field Grade Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4190488490 - Field 3337414782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Grade no.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Ext - Field Grade No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4190488490 - Field 2687712307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Quote Status Date</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Ext - Field Won/Lost Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4190488490 - Field 1968617997 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Quote Status</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Ext - Field Won/Lost Quote Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4190488490 - Field 2596330488 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Reason Code</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Ext - Field Won/Lost Reason Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4190488490 - Field 3079526516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Reason Description</source>
+          <target state="translated">Begrundelse</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Ext - Field Won/Lost Reason Desc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4190488490 - Field 2570510448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Remarks</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Ext - Field Won/Lost Remarks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 267901837 - Field 2171524677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Grade Description</source>
+          <target state="translated">Grade Beskrivelse</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension sol Sales Cr.Memo HeaderExt - Field Grade Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 267901837 - Field 3337414782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Grade no.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension sol Sales Cr.Memo HeaderExt - Field Grade No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3859397705 - Field 2171524677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Grade Description</source>
+          <target state="translated">Grade Beskrivelse</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension sol Sales Invoice HeaderExt - Field Grade Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3859397705 - Field 3337414782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Grade no.</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension sol Sales Invoice HeaderExt - Field Grade No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1083600589 - EnumValue 356416822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In Progress</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum sol Won or Lost Status - EnumValue InProgress - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1083600589 - EnumValue 1596556440 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lost</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum sol Won or Lost Status - EnumValue Lost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1083600589 - EnumValue 1063633330 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Won</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum sol Won or Lost Status - EnumValue Won - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1467411225 - EnumValue 2792882736 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ambiguous</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Style Type - EnumValue Ambiguous - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1467411225 - EnumValue 1351826026 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attention</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Style Type - EnumValue Attention - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1467411225 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Style Type - EnumValue None - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

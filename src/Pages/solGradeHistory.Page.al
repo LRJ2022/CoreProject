@@ -71,4 +71,37 @@ page 50103 "sol Grade History"
             }
         }
     }
+    actions
+    {
+        area(Processing)
+        {
+            action(Test)
+            {
+                Caption = 'Test';
+                Image = Action;
+                trigger OnAction()
+                begin
+
+                end;
+            }
+            action(Test2)
+            {
+                Caption = 'Test2';
+                Image = Action;
+                trigger OnAction()
+                begin
+
+                end;
+            }
+            action(Test3)
+            {
+                Caption = 'Test3';
+                Image = Action;
+                trigger OnAction()
+                begin
+
+                end;
+            }
+        }
+    }
 }

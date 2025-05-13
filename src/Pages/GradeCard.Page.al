@@ -49,9 +49,10 @@ page 50111 "sol Grade Card"
     {
         area(Processing)
         {
-            action(ActionName)
+            action(Test)
             {
-
+                Caption = 'Test';
+                Image = Action;
                 trigger OnAction()
                 begin
 
