@@ -128,6 +128,16 @@
           <note from="Developer" annotates="general" priority="2">%1 specifies amount of won quotes</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit sol Quote Status Mgmt. - Method ShowNoOfQuoteNotification - NamedType wonLostForFiveDays</note>
         </trans-unit>
+        <trans-unit id="Page 583800047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Information Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page lrj User Information Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 583800047 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page lrj User Information Card - Control General - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3663499608 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Close Quote</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -447,6 +457,11 @@
           <source>Update Item Descriptions</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report sol Update Item Descriptions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 521661747 - ReportDataItem 3276313895 - Property 1806354803" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Selection</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report sol Update Item Descriptions - ReportDataItem Item - Property RequestFilterHeading</note>
         </trans-unit>
         <trans-unit id="Report 1112428675 - RequestPage 2516438534 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
           <source>Teaching tip title</source>
